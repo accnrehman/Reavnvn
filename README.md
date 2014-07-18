@@ -27,3 +27,50 @@ Please reply to the above question before 4 pm tomorrow. If we don't receive a r
 
 Thank you.
 Akosha Team
+
+
+-----------------------------------------------
+-----------------------------------------------
+
+1st technical
+From Java 
+=============
+1.What is the Difference between final,finally,finalize
+2.what is the difference between Call by value and call by referance
+3.How to find out the length of the string without using length function
+4.How to find out the part of the string from a string
+5.difference between throw & throws
+6.What is binding(Early and Late binding)
+
+He give Programes 
+-----------------------------------
+1.Reverse a number
+2.1,2,3,4,5,65,76,5,,4,33,4,34,232,3,2323,
+find the biggest number among these
+simple string programe002E
+what is exception, types of exception
+
+From manual
+----------------------------------
+what is the testcase technique
+why we write test case.
+bug life cycle
+what are the different status of bug
+what is the different between functional and smoke testing 
+what is STLC.
+
+from Selenium
+=======================================
+what is testng and its advantage
+how to handle SSl/
+how to handle alert
+how to take screenshot 
+give the diagram write a scrpt..
+tell me about Project .What are the challenge face during project
+what is the difference between RC and webdriver
+what is freamwork explain it.
+why we use wait statement.
+
+2nd technical
+he gives a application & tell to write the scenario
+some manual testing concepts.
