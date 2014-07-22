@@ -1,6 +1,9 @@
 Reavnvn
 =======
 
+http://beginnersbook.com/2014/01/java-program-to-display-prime-numbers/
+
+==============================
 http://www.share-pdf.com/092b70af6e4046df964193f8b4f00c0b/ICSEProgramsAnswers.pdf
 
 http://www.icsejava.com/programs
