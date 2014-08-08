@@ -1,6 +1,22 @@
 Reavnvn
 =======
 
+Team –
+
+Since i will be on vacation next week please take care of the below items
+
+•	We need to start our execution from Monday 08/18 (As per test Plan) – Attaching here the Test plan for your reference
+•	Make sure of the test cases preparation and complete them in next week whatever the confirmed scope items received
+•	Work with Tech team on completing the installations (Please check with Ashok or me before asking any query to tech team as i told in the meeting).
+•	Take care of your Time in and Out to the office, maintain 9 hours properly
+•	Individual Lab machines please login in to the clones of VM ware and make sure all are working fine or not- make a note and let me know about that once my return.
+•	Avoid taking Unplanned leaves on next week and also till this release
+•	I will approve MYTE on Tuesday or Wednesday, please check periodically and one can all me and update regarding same if i forgot.
+
+Any urgent call me any time.
+
+==================================
+
 
 http://beginnersbook.com/2013/04/oops-concepts/
 
