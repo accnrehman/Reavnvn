@@ -1,5 +1,13 @@
 Reavnvn
 =======
+Four years ago today, I walked into Facebook for the first time as an employee. Every day since has been a great honor. Facebook is truly a mission based culture. Our objective is to help make the world more open and connected. Despite the fact that we have over 1.3B people who use the product, in our minds, we have so much more work ahead of us than behind us. Work that I believe helps make the world a better place.
+Facebook challenges all that I have to offer both as a business and technical leader. It is comprised of some of the most passionate, intelligent people I've had the opportunity to meet. And it is my belief, that as we grow, we are just getting better as a company. We learn from our mistakes, we learn from working together, and we encourage each other to reach beyond what we believe is possible.
+I'm grateful for the opportunity to work at a company that touches so many people. I'm grateful that I have an opportunity to work with others who have so much to offer the world. I'm grateful that I have such an awesome team - a team that makes my best ideas better, and is unafraid to tell me of my worst ones. Most of all I'm excited about what lies ahead.
+Thank you Mark Zuckerberg, Sheryl Sandberg, David Ebersman, Dave Wehner and everyone else at Facebook for giving me the opportunity to bring my best to work here.
+
+
+
+
 
 Team –
 
