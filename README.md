@@ -1,4 +1,12 @@
 Reavnvn
+
+Hello All,
+
+As most of you know ‘today is my last working day at Accenture and Bank of America’. After  1.5 years of this wonderful experience, it is very difficult to say goodbye to my leads, colleagues and all my well-wishers. I feel that it is time for me to move on to new opportunities. I can only wish that my new phase in life will give me such rewarding experiences and supportive friends. Thank you so much for making my time at Accenture a truly enjoyable one.
+
+Thank you Sri, Basvaraj, Mukund, Praveen and everyone else at Accenture for giving me the opportunity to bring my best to work here.
+
+
 =======
 Four years ago today, I walked into Facebook for the first time as an employee. Every day since has been a great honor. Facebook is truly a mission based culture. Our objective is to help make the world more open and connected. Despite the fact that we have over 1.3B people who use the product, in our minds, we have so much more work ahead of us than behind us. Work that I believe helps make the world a better place.
 Facebook challenges all that I have to offer both as a business and technical leader. It is comprised of some of the most passionate, intelligent people I've had the opportunity to meet. And it is my belief, that as we grow, we are just getting better as a company. We learn from our mistakes, we learn from working together, and we encourage each other to reach beyond what we believe is possible.
