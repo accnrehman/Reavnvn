@@ -1,6 +1,27 @@
 Reavnvn
 \
 
+
+From: Srinivas, Sanjay [mailto:sanjay.srinivas@baml.com] 
+Sent: Monday, August 18, 2014 5:56 PM
+To: Rehman, Abdur - 2
+Subject: RE: Till we Meet Again!!!
+
+Hi Abdur,
+It was indeed a pleasure working with you. You are a quick learner and have the ability to get to the root of the situation for any issue. This was evident in your prompt responses to development and business partners on defect-fix retest requests.
+
+I also appreciate the fact that you are taking charge of your career moves and moving over to a newer venture. This shows that you really live the motto “Change is the only Constant”
+
+Good Luck in the new projects and as you say, I hope our paths cross again !!
+
+
+Thanks,
+Sanjay Srinivas, CSTE
+IV&V Channel Testing
+Mobile : 817-946-0869
+
+-==================
+
 As you’re already aware ‘today is my last working day at Accenture and Bank of America’. After  1.5 years of this wonderful experience, it is very difficult to say goodbye to my leads, colleagues and all my well-wishers. I feel that it is time for me to move on to new opportunities. I can only wish that my new phase in life will give me such rewarding experiences and supportive friends. Thank you so much for making my time at Bank of America Project a truly enjoyable one.
 
 During these last 1.5 years at IVV,  you all have provided me support and through your encouragement and guidance I have been able to excel at the projects offered to me. With many of you, I have shared a unique camaraderie which I hope will continue in the years to come even though I shall not be here with the company. I would like to extend my best wishes to entire group.
