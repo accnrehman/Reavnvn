@@ -1,11 +1,538 @@
 Reavnvn
 \
 
+import java.util.ArrayList;
+import java.util.Iterator;
+ 
+public class ArrayListIterator {
+ 
+    public static void main(String a[]){
+        ArrayList<String> arrl = new ArrayList<String>();
+        //adding elements to the end
+        arrl.add("First");
+        arrl.add("Second");
+        arrl.add("Third");
+        arrl.add("Random");
+        Iterator<String> itr = arrl.iterator();
+        while(itr.hasNext()){
+            System.out.println(itr.next());
+        }
+    }
+}
+==================================
+public class ArraySum {
 
-From: Srinivas, Sanjay [mailto:sanjay.srinivas@baml.com] 
-Sent: Monday, August 18, 2014 5:56 PM
-To: Rehman, Abdur - 2
-Subject: RE: Till we Meet Again!!!
+	public static void main(String[] args) {
+		
+		
+		int a[]={2,4,5,45,67,89,43,565,564,90};
+		int sum=0;
+		
+		for(int i=0;i<a.length;i++)
+		{
+			sum=sum+a[i];
+		}
+		System.out.println(sum);
+	}
+
+}
+
+========================
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+import com.sun.jna.platform.win32.WinUser.INPUT;
+
+
+public class BinarySearch {
+
+	public static void main(String[] args) 
+	
+	{
+		int i=0, item=65;
+		int a[]={2,5,7,84,7,3,5,54,67,};
+
+		
+		Arrays.sort(a);
+		
+		int first=0, last=a.length-1;
+		int middle=(first+last)/2;
+		
+		while(first<=last)
+		{
+			if(a[middle]<item)
+			{
+				first=middle+1;
+			}
+			else if(a[middle]>item)
+			{
+				last=middle-1;
+			}
+			else if(a[middle]==item)
+			{
+				System.out.println("Number found");
+				break;
+			}
+			middle=(first+last)/2;
+		}
+		if(first>last)
+		{
+			System.out.println("Numnber not found");
+		}
+	}
+
+}
+========================
+
+import java.util.Arrays;
+
+public class DeleteRepeatedChar {
+
+	public static void main(String[] args) {
+		
+		String s="abbbdddee";
+		
+		char c[]=s.toCharArray();
+		
+		Arrays.sort(c);
+		
+		int length=c.length;
+		
+		int count=0;
+		
+		String finalValue ="";
+		
+		
+        
+		for(int i=0;i<length;i++)
+		{
+			for(int j=0;j<length;j++)
+			{
+				if(c[i]==c[j])
+				{
+				 count=count+1;
+				}
+			}
+			
+	
+			if (count > 1) {
+	            finalValue=finalValue+c[i];
+	            i=i+count-1;
+	        } else {
+	            finalValue = finalValue + c[i];
+	        }
+			count=0;
+		
+		}
+			
+		 System.out.println(finalValue);
+	}
+
+}
+
+========================
+public class Factorial {
+	
+	public int Fact(int a)
+	{
+		
+		int fact=1;
+		for(int i=a;i>=1;i--)
+		{
+			fact=fact*i;
+			
+		}
+		
+		
+		return fact;
+	}
+	
+	
+
+	public static void main(String[] args)
+	{
+	int n=6;
+
+	Factorial obj=new Factorial();
+
+	System.out.println(obj.Fact(n));
+	
+	
+	
+	
+	
+	//	int fact=1;
+	
+	/*
+	for(int i=n;i>=1;i--)
+	{
+		fact=fact*i;
+		
+	}
+	System.out.println(fact);
+	*/
+	
+	
+	}
+
+}
+=============================
+
+public class Fibonacci {
+
+	public static void main(String[] args) 
+	
+	
+	{
+		int i=0;
+		int j=1;
+		int x=20;
+		
+		System.out.println(i);
+		System.out.println(j);
+		
+		for(int a=0;a<=x;a++)
+		{
+			int sum=i+j;
+			System.out.println(sum);
+			i=j;
+			j=sum;
+		}
+		
+	
+	}
+
+}
+===============================
+
+public class FirstHundredPrimeNumber {
+
+	public static void main(String[] args)
+	{
+		 
+	int	primecount=0;
+		for(int i=1;primecount<51;i++)
+		{
+			int count=0;
+			for(int num=1;num<=i;num++)
+			{
+				if(i%num==0)
+				{
+					count=count+1;
+				}
+				
+			}
+			if(count==2)
+			{
+				System.out.print(i+" ");
+				primecount=primecount+1;
+			}
+		}
+		System.out.println(primecount);
+
+	}
+
+}
+================================
+
+public class Linear_Search 
+
+{
+	public static void main(String args[]){
+
+	int a[]={2,5,7,84,3,54,67,3,5,7};
+	
+	for(int i=0;i<a.length;i++)
+	{
+		if(a[i]==84)
+		{
+			System.out.println("Number is found at position "+ (i+1));
+		}
+	}
+	
+	}
+	
+}
+===================================
+
+public class maxrepeatedchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	
+		String str="aaaahhhiioooiiokkpppkk";
+		char c[]=str.toCharArray();
+		
+		int len=c.length;
+		
+		
+				int temp=0;
+				int count=0; int index=0;
+				
+		for(int i=0;i<len-1;i++)
+		{
+			for(int j=0;j<len-1;j++)
+			{
+				if(c[i]==c[j])
+				{
+					temp=temp+1;
+				}
+				
+			}
+			
+		if(temp>count)
+		{
+		count=temp;
+		index=i;
+		}
+		temp=0;
+		}
+		
+		char ch[]=Character.toChars(c[index]);
+		System.out.println(ch);
+		System.out.println(count);
+	}
+
+}
+
+==================================
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class MyArrayListNewCollection {
+
+	public static void main(String a[]){
+		ArrayList<String> arrl = new ArrayList<String>();
+		//adding elements to the end
+		arrl.add("First");
+		arrl.add("Second");
+		arrl.add("Third");
+		arrl.add("Random");
+		
+		
+		System.out.println("Actual ArrayList:"+arrl);
+		
+		
+		List<String> list = new ArrayList<String>();
+		list.add("one");
+		list.add("two");
+		arrl.addAll(list);
+		System.out.println("After Copy: "+arrl);
+	}
+}
+=================================
+
+import java.util.ArrayList;
+
+public class MyBasicArrayList {
+ 
+    public static void main(String[] a){
+         
+        ArrayList<String> al = new ArrayList<String>();
+        //add elements to the ArrayList
+        
+        al.add("JAVA");
+        al.add("C++");
+        al.add("PERL");
+        al.add("PHP");
+        System.out.println(al);
+        
+        
+        
+        //get elements by index
+        System.out.println("Element at index 1: "+al.get(1));
+        System.out.println("Does list contains JAVA? "+al.contains("JAVA"));
+        //add elements at a specific index
+        al.add(2,null);
+        System.out.println(al);
+        System.out.println("Is arraylist empty? "+al.isEmpty());
+        System.out.println("Index of PERL is "+al.indexOf("PERL"));
+        System.out.println("Size of the arraylist is: "+al.size());
+    }
+}
+
+===============================
+
+public class NumberisFibonacci {
+
+	public static void main(String[] args) {
+		
+		int n=47;
+		int a=0,b=1, sum=0;
+		for(int i=1;i<=n;i++)
+		{
+			if(sum==n)
+			{
+				System.out.println("No. is fibonacci");
+				break;
+			}
+			
+			sum=b+a;
+			a=b;
+			b=sum;
+			
+				
+		}
+
+	}
+
+}
+
+====================================
+public class Palindrome {
+
+	public static void main(String[] args) 
+	
+	{
+		String str="madam i madam";
+int n=str.length();
+
+int count=0;
+
+
+
+for(int i=0; i<(n/2)+1; i++)
+		{
+			
+			if(str.charAt(i) !=str.charAt(n-i-1))
+			{
+				count=1;
+				break;
+			}
+			
+		}
+		
+		if(count==1)
+		{
+			System.out.println("Not a plaindrome");
+			
+		}
+		else
+		{
+			System.out.println("Palindrome");
+		}
+	}
+
+}
+
+================================
+public class PrimeNumbers {
+
+	public static void main(String[] args)
+	{
+		
+		int number=2
+			;
+		int count=0;
+		//number is divided by 2 because a number can be maximum divisible by half of its value
+		for(int i=2;i<=number/2;i++)
+		{
+			if(number%i==0)
+			{
+				count=1;
+			}
+			
+		}
+		if(count==0)
+		{
+			System.out.println(number+" Number is a prime number");
+		}
+		else
+		{
+			System.out.println(number+" Number is not a prime number");
+		}
+
+	}
+
+}
+==============================
+
+import java.util.Arrays;
+
+public class RepeatedNumber {
+
+	public static void main(String[] args) {
+		
+		int array[]={2,7,4,7,8,1};
+		Arrays.sort(array);
+		
+		for(int a=0;a<array.length-1;a++)
+		{
+			if(array[a]==array[a+1])
+			{
+				System.out.println("Duplicate Number" +array[a]);
+			}
+		}
+
+}
+}
+===================================
+
+public class Reverse_number {
+
+	public static void main(String[] args)
+	
+	{
+		int i=6429846;
+		
+		while(i!=0)
+		{
+			int rem= i%10;
+			System.out.print(rem);
+			int div=i/10;
+			div=i;
+		}
+
+	}
+}
+
+==================================
+
+public class Reverse {
+
+	public static void main(String[] args)
+	{
+		
+		String str="Print a string";
+		//System.out.println(str.length());
+		
+		char a[]=str.toCharArray();
+		int l=a.length;
+		for(int i=l-1;i>=0;i--)
+		{
+			System.out.print(a[i]);
+		}
+	}
+
+}
+
+=================================
+
+public class Swap {
+
+	public static void main(String[] args) {
+	
+		int a=30;
+		int b=20;
+		
+		
+		System.out.print(a+","+b+"print before swap");
+		
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		
+		System.out.print(a+","+b+"Print after swap");
+	   
+		
+	}
+
+}
+========================================
+
 
 Hi Abdur,
 It was indeed a pleasure working with you. You are a quick learner and have the ability to get to the root of the situation for any issue. This was evident in your prompt responses to development and business partners on defect-fix retest requests.
@@ -15,10 +542,7 @@ I also appreciate the fact that you are taking charge of your career moves and m
 Good Luck in the new projects and as you say, I hope our paths cross again !!
 
 
-Thanks,
-Sanjay Srinivas, CSTE
-IV&V Channel Testing
-Mobile : 817-946-0869
+
 
 -==================
 
